@@ -94,9 +94,9 @@
         
         layer_1 {
             bindings = <
-&kp CARET   &kp EQUAL      &kp NUMBER_7   &kp NUMBER_8   &kp NUMBER_9   &kp AT_SIGN                            &kp LEFT_PARENTHESIS    &kp DOUBLE_QUOTES   &kp RIGHT_PARENTHESIS   &kp SEMI    &kp EXCLAMATION   &kp QMARK
-&kp MINUS   &kp PLUS       &kp NUMBER_4   &kp NUMBER_5   &kp NUMBER_6   &kp HASH                               &kp LEFT_BRACKET        &kp SINGLE_QUOTE    &kp RIGHT_BRACKET       &kp COLON   &kp AMPERSAND     &kp PIPE
-&kp SLASH   &kp ASTERISK   &kp NUMBER_1   &kp NUMBER_2   &kp NUMBER_3   &kp UNDERSCORE                         &kp SLASH               &kp BACKSLASH       &kp COMMA               &kp DOT     &kp DOLLAR        &kp PERCENT
+&kp 0x38     &none      &kp UP     &none       &none           &none       &none                                 &kp TAB          &kp UP          &kp N8        &kp N9         &mkp MB2
+&kp JP_SEMI  &kp LEFT   &kp GRAVE  &kp GRAVE   &kp MINUS        &none       &none                      &kp BACKSPACE  &kp SPACE       &kp TAB       &kp ENTER      &kp COMMA 
+&kp JP_COLON &none      &none      &none       &none       &mkp MB4  &mkp MB5   &kp DELETE     &kp N1          &kp N2        &kp N3         &mt LCTRL PERIOD
             &kp ESC        &kp NUMBER_0   &kp DOT        &trans         &trans           &trans      &kp RET   &kp BSPC                                                            &kp DEL     &trans 
             >;
         };
